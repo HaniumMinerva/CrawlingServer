@@ -16,3 +16,14 @@
 
 2. 해당 크롤링한 **채용 공고 정보**를 **DB Server에 저장**
 
+## 실행 순서
+1. 채용 회사 정보 DB 저장
+```bash
+python company.py
+```
+
+2. 크롤링 서버 실행 => crawling.py를 실행해주는 flask 서버 실행
+```bash
+python init.py
+```
+
